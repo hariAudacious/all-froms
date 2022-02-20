@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Myform from "./Component/FirstForm";
+import State from "./Component/useState";
+import Converter from "./Component/Converter";
+import 'antd/dist/antd.css' 
+import String from "./Component/sigle-input-string";
+import Array from "./Component/array-input-form";
+import TwoInput from "./Component/Two-Input-String";
+import Obj from "./Component/Two-Input-Obj";
+import Hariom from "./Component/Two-input-arr-obj";
+import Buttons from "./Component/Multiple-button";
+import Testing from "./Component/testing-Converter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    <String/>         {/* "hariom" */}
+    {/* <Array/> */}         {/*  ["hariom","Dolly","Aarti"]*  /}
+    {/* <TwoInput/> */} 
+    {/* <Obj/>                        {fname:"hariom",lname:"sharma"} */}
+    {/*<Myform/>*/}        {/*[{fname:"hariom",lname:"sharma"},{fname:"Sunil",lname:"yadav"}]*/}
+    {/* <State/> */}
+    {/* <Converter/> */}
+    {/* <Buttons/> */}
+    {/* <Testing/> */}
     </div>
   );
 }
